@@ -149,27 +149,6 @@ body {
     color: #ccc;
 }
 
-.button {
-    background: #0e4f1f;
-    color: white;
-    font: inherit;
-    border: 1.5px solid #0e4f1f;
-    padding: 0.5rem;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.button:hover,
-.button:active {
-    background: white;
-    color: #0e4f1f;
-}
-
-.button:focus {
-    outline: none;
-}
-
 /* Sidebar nav */
 .mobile-nav {
     display: none;
@@ -198,3 +177,28 @@ body {
   .mobile-nav__item a {
     font-size: 1.5rem;
   }
+
+  .button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #0e4f1f;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.open {
+    display: block !important;
+}
