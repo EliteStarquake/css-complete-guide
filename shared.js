@@ -22,12 +22,17 @@ backdrop.addEventListener("click", function() {
   closeModal();
 });
 
-modalNoButton.addEventListener("click", closeModal);
+// Checks to see if there is a modalNoButton on the page before executing code
+if (modalNoButton) {
+  modalNoButton.addEventListener("click", closeModal);
+}
 
 function closeModal() {
   // backdrop.style.display = "none";
   // modal.style.display = "none";
-  modal.classList.remove('open');
+  if (modal) {
+    modal.classList.remove('open');
+  }
   backdrop.classList.remove('open');
 }
 
