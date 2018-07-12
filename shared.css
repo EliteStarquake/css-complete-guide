@@ -34,18 +34,15 @@ main {
   left: 0;
   background: #2ddf5c;
   padding: 0.5rem 1rem;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   align-items: center;
-<<<<<<< HEAD
-  justify-content: space-between;
-=======
+  text-align: right;
 }
 
 .main-header > div {
   display: inline-block;
   vertical-align: middle;
->>>>>>> c6584d04e3eba1a763737e8c5e06661504a27fb4
 }
 
 .toggle-button {
