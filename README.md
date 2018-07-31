@@ -3,6 +3,10 @@
 
 *Course notes will be included here*
 
+### Restart - 24 July 2018
+
+Had to restart by downloading files from the course page because the navbar elements had moved to the right and the CSS Grid work broke the layout, especially the footer. 
+
 ### Packages Page
 *Lectures 73 - 77*
 
